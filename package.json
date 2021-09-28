@@ -4,6 +4,7 @@
   "bin": "./bin/cli.js",
   "license": "MIT",
   "repository": "https://github.com/powerlink/PplFinder",
+  "homepage": "https://Noormasarwa.github.io/PplFinder",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
@@ -25,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
